@@ -95,7 +95,7 @@ void ai::moveNPC(World* map, ent* g, Point* playerPos)
  {
   for (y = centy - 1; y < centy + 2; y++)
   {
-    if (map->layout[x][y].value <= least)
+    if (map->layout[x][y].value <= least && map->layout[x][y].blocks == false)
     {
      least = map->layout[x][y].value;
      lowest.x = x;
