@@ -63,7 +63,7 @@ World::World(int w, int h)
  }
 }
 
-//This is the function that creats the "Dijstrika Map"
+//This is the function creates an influence map using Euclidean Distance
 //Around objects of value, in this demo that being
 //the players character.
 void World::setValue(Point* pPos)
