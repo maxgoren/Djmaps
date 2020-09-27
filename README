@@ -3,6 +3,17 @@ Dijkstra Map Example.
 http://www.maxcodes.info
 maxgoren@icloud.com
 
+This is the accompanying code to make goblins move part one.
+This code illustrates the fundamentals of making a flow 
+field/influence map. It uses euclidean distance to assign
+a value to each tile. 
+Part two of making goblin moves
+covers the basic of pathfinding algorithms - Breadth
+First Search, Dijkstras Algorithm, and A*.
+
+Part three revisits the concepts shown here and in part two
+to create a "dijkstra map".
+
 To compile:
 g++ libBearLibTerminal.dylib dj.cpp -o djex
 
